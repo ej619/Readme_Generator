@@ -2,6 +2,8 @@
 const inquire = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const renderLicenseBadge = require('./utils/generateMarkdown');
+const renderLicenseSection = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
@@ -32,9 +34,15 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'input',
-        message: 'Enter license information',
+        type: 'list',
+        message: 'Select License',
         name: 'license',
+        choices: ["MIT", "APACHE 2.0","GPL 3.0", "NONE" ]
+    },
+    {
+        type: 'input',
+        message: 'Contributing',
+        name: 'contributing',
     },
     {
         type: 'input',
@@ -45,6 +53,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
+    
     const newData = generateMarkdown(data) 
     fs.writeFileSync('README.md', newData)
     console.log('README file generated!');

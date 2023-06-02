@@ -60,8 +60,7 @@ function generateMarkdown(data) {
   For additinal questions:
   email: ${data.email}
   gitHub: www.github/${data.github}
-  
-`;
+`
 }
 
 module.exports = generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection;

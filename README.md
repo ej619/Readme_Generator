@@ -12,19 +12,19 @@
 
   ## Title <a name="title"></a>
 
-  Readme file Generator
+  Readme Generator
 
   ## Description <a name="description"></a>
 
-  This commandline application eill auto generate a readme.md file after answering the questions.
+  This commandline application will auto generate a readme.md after answering all the questions
 
   ## Installation <a name="installation"></a>
 
-  Node, inquirer library.
+  Node, inquirer library
 
   ## Usage <a name="usage"></a>
 
-  run node index.js and answer all questions.
+  run node index.js and anser all the questions
 
   ## License <a name="license"></a>
 

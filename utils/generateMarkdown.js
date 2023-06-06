@@ -31,31 +31,31 @@ function generateMarkdown(data) {
 
   ${data.title}
 
-  ## Description <a name="description"></a>
+  ## Description
 
   ${data.description}
 
-  ## Installation <a name="installation"></a>
+  ## Installation
 
   ${data.installation}
 
-  ## Usage <a name="usage"></a>
+  ## Usage
 
   ${data.usage}
 
-  ## License <a name="license"></a>
+  ## License
 
   ${data.license}
 
-  ## Contributing <a name="contributing"></a>
+  ## Contributing
 
   ${data.contributing}
 
-  ## Test <a name="test"></a>
+  ## Test
   
   ${data.test}
 
-  ## Questions <a name="questions"></a>
+  ## Questions
 
   For additinal questions:
   email: ${data.email}

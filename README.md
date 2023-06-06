@@ -1,44 +1,45 @@
 
   # Table of Contents
   
-  1. [Title](#title)
-  2. [Description](#description)
-  3. [Installation](#installation)
-  4. [Usage](#usage)
-  5. [License](#license)
-  6. [Contributing](#contributing)
-  7. [Test](#test)
-  8. [Questions](#questions)
+- [Table of Contents](#table-of-contents)
+  - [Title](#title)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Test](#test)
+  - [Questions](#questions)
 
-  ## Title <a name="title"></a>
+  ## Title
 
   Readme Generator
 
-  ## Description <a name="description"></a>
+  ## Description
 
   This commandline application will auto generate a readme.md after answering all the questions
 
-  ## Installation <a name="installation"></a>
+  ## Installation
 
   Node, inquirer library
 
-  ## Usage <a name="usage"></a>
+  ## Usage
 
   run node index.js and anser all the questions
 
-  ## License <a name="license"></a>
+  ## License
 
   NONE
 
-  ## Contributing <a name="contributing"></a>
+  ## Contributing
 
   N/A
 
-  ## Test <a name="test"></a>
+  ## Test
   
   N/A
 
-  ## Questions <a name="questions"></a>
+  ## Questions
 
   For additinal questions:
   email: erwinjocosing@yahoo.com
